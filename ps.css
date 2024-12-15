@@ -1,0 +1,32 @@
+body{
+    background-image: url(pic/photoshop-update-april-2024-featured.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 2em;
+}
+div{
+    display: flex; 
+    justify-content: center;
+padding: 40px;
+}
+div img{
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+div img:hover{
+    transform: scale(1.2);
+}
+.src{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.src a{
+    font-size: 20px;
+}

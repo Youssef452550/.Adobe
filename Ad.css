@@ -1,0 +1,14 @@
+body{
+    background-image: url(pic/adobe-illustrator-reviewed.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+text-align: center;
+color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
